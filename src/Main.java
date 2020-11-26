@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int clientbalans = 100;
+        int clientBalans = 100;
         int refill = 1300;
         int limit = 1000;
         int bonus;
@@ -13,10 +13,10 @@ public class Main {
             bonus = 0;
         }
 
-       int totalbalans = clientbalans + refill + bonus;
+       int totalBalans = clientBalans + refill + bonus;
 
 
         System.out.println(bonus);
-        System.out.println(totalbalans);
+        System.out.println(totalBalans);
     }
 }
